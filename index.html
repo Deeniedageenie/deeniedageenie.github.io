@@ -1,208 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/png" href="./images/fr_black.png">
-  <title>Fardeen's Portfolio</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fardeen Rashid</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="./js/script.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
 
 </head>
-<body>
-  <div id="topbar">
-    <p>Portfolio</p>
-  </div>
-  <header id="sidebar">
 
-    <div id="logo">
-      <a href="./index.html"><img src="./images/fr_black.png"></a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <!-- Navigation-->
+  <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
+            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand page-scroll" href="#page-top"> Fardeen's Protfolio</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#concept" class="page-scroll">The Concept</a></li>
+          <li><a href="#product" class="page-scroll">The Product</a></li>
+
+          <li><a href="#design" class="page-scroll">Design </a></li>
+          <li><a href="#outcome" class="page-scroll">Outcome</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
 
-    <div id="name">
-      <a href="./index.html" >Fardeen Rashid</a>
+
+
+
+
+              <div class="name">
+                <img src="./img/fr_white.png" alt="">
+
+                <h1>Fardeen Rashid</h1>
+              </div>
+
+            </div>
+            <div class="start_btn">
+              <a href="#concept" class="btn btn-custom btn-lg page-scroll">Lets Begin</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-
-
-    <nav id="menu">
-      <ul>
-
-        <li id="projects_btn">My Project</li>
-        <li id="experience_btn">Past Work</li>
-        <li id="about_btn">About me</li>
-        <li id="social_btn">Blog & Social Media</li>
-
-
-      </ul>
-    </nav>
   </header>
 
-  <div id="main">
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
+    <i class="fa fa-chevron-up"></i>
+  </a>
 
-    <div id="myProjects">
-      <h1>DECO1800 Project Documentaion & Reflection </h1>
+  <!-- Concept Section -->
+  <div id="concept" class="text-center">
+    <div class="container">
+      <div class="col  section-title">
+
+        <h2>The Concept</h2>
+        <hr>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col">
+          <h2>What is Itsy?</h2>
+          <hr>
+          <p>ITSY is an interactive learning toy that provides children with a better learning tool. Itsy allows the
+            user to learn at a more comfortable pace with more than one interaction method.
+          </p>
+          <h2>Intended concept</h2>
+          <hr>
+          <p>Our intended concept was to create a learning toy that could detect voice and speak back using voice
+            recognition, have the ability to recognise colours and shapes to help the user perform certain tasks
+            designed by professional child learning experts. Our aim was to create a swiss army knife of an interactive
+            toy, which would allow other developers other than us, to design games and activities for itsy.
+
+          </p>
+        </div>
+        <br>
+        <br>
+        <div class="concept-img col-sm-3">
+          <p><strong>Object Recognition </strong></p>
+          <img src="./img/object_recognition.png" alt="">
+        </div>
+        <div class="concept-img col-sm-3">
+          <p><strong>Voice Recognition </strong></p>
+          <img src="./img/speech_recognition.png" alt="">
+        </div>
+        <div class="concept-img col-sm-3">
+          <p><strong>Physical Interaction </strong></p>
+          <img src="./img/Physical interaction.png" alt="">
+        </div>
+        <div class="concept-img col-sm-3">
+          <p><strong>Soft Design </strong></p>
+          <img src="./img/teddy_bear.png" alt="">
+        </div>
+
+      </div>
       <br>
-      <h2>Major Project Part A</h2>
       <br>
-      <h3>
-        In the beginning we brainstormed for ideas as group not individuals. Within the group, each  member had to come up with at least five ideas which we then sorted and grouped similar ideas. After that we walked around other groups and voted the best ideas. One of the idea that i came up with was to have the guessing questionnaire game that is related to the Ships that the convicts came in, the ships would sink if the user got the question wrong.Here are the top two ideas from our group.
-        <br><br>
-        <img src="./images/best_ideas.jpg"alt="">
-        <br><img src="./images/collage.png"alt="">
-        <br><br>
-        We eventually decided to create quiz games game. In the earlier stage of Part A Me and my groupmates knew what API we would use but we weren’t sure how we would do it.
-        <br><br>
-        <img src="./images/idea_brainstorm.jpg"alt="">
-        <br>
-        <img src="./images/api_brainstorm.jpg"alt="">
-        <br><br>
-        After selecting the basic idea we brainstormed on how we will create the layout, after several ideas such as a jail cell, a “hut” in a the australian coast , on a ship etc. we decided upon a basic room with furnitures inside that we can click to reveal clues and then the user would use those clues to answer the question.
-        <br><br>
-        <img src="./images/layout.png"alt="">
-        <br><br>
-        Here a rough flowchart that describes the gameplay and the user inout and the system output of the game
-        <br><br>
-        <img src="./images/flowchart.png"alt="">
-        <br><br>
-        In part A it was mostly gourp based tasks, however, there was some individual tasks. I was responsible for the designing a poster for our pitch. I think I did a great job as all myteam members were pleased with it.
-        <br><br>
-        <img src="./images/poster.jpg"alt="">
-        <br>
-      </h3>
-      <h2>Major Project Part B</h2>
       <br>
-      <h3>
-        In part B we did our paper prototyping and I was the observer  for majority of the part.Some of the key observations I made about the users are the following
-        <ul>
-          <li>User seemed a bit confused at first about the context and goal of the program (required some explanation from the facilitator)</li>
-          <li>Tell the user what they’re looking for, give more context on the game and subject</li>
-          <li>Start page / home page</li>
-          <li>Instructions for how the game works</li>
-          <li>Possibly have a timer to have an urgency in the gameplay</li>
-          <li>Have question either given at the start or have accessible at all times</li>
-          <li>Let the user answer the question as soon as they have the information</li>
-        </ul>
-        After our prototyping we immediately  began our development of our website and incorporating the feedback that was given to us. Which were basically the issues I observed in the dot points above. Each team member was assigned a specific task , I was responsible for the the front end development ( HTML & CSS). I got the coding completed in time, however, some alterations needed to be made at the end hence not meeting our personal deadlines for the progress report although we did manage to meet the part be deadline for submission of our report.
-        <br><br>
-        <img src="./images/plan.png"alt="">
-        <br><br>
-        It is in this section we realised some of major problems with ourprototype. such as lack of direction, lack of context, lack of urgency in the game, the answer system,
-        <br><br>
-        <img src="./images/prototype.png"alt="">
-        <br><br>
-        As mentioned above I was responsible for creating the designing the front end. here is the erliest version of the structure.
-        <br><br>
-        <img src="./images/html.png"alt="">
+      <div class="row">
 
-      <h2>Major Project Part C</h2>
-      <h3>
-        In this part we finalised all our codes. One of the group members was not confident with doing the styling part so In part C I decided to do the markup and the styling for the document.
-        <br>Here is a picture of our final product.
-        <br><br>
-        <img src="./images/startpage_final.png"alt="">
+
+        <div class="col">
+          <h2>Problem Space</h2>
+          <hr>
+          <div class="col-sm-6">
+            <h3>Team</h3>
+            <p>Due to the prevalence of using electronic devices, children are incorporating less motor skills to learn
+              and play in their daily lives. Infants and toddlers have difficulty transferring new learning from a 2D
+              representation to a 3D object ie from book/screens to real world objects.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Individual</h3>
+            <p>For my individual prototype the problem space was targeting the physical interaction of the traditional
+              learning techniques generally engaging just two senses – hearing and vision – when providing access to
+              information. This can leave their other senses underutilized and under developed, leading to issues in the
+              later stages in life such as: Messy handwriting, weak hand-eye coordination etc.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div class="solution col">
+
+        <h2>Our Solution</h2>
+        <hr>
+        <p>For my final Iteration, ITSY is an interactive learning toy that provides children with a better learning
+          tool. Using interaction with the limbs of the Itsy bear and using the bear to show and learn about colour.
+          This multi input interaction allows for a much more synchronized development of the brain. Targeting both
+          the creative and analytic part of the brain. </p>
         <br>
-        <img src="./images/gamepage_final.png"alt="">
-        <br><br>
-        This was the final stretch of the project where we had some hiccups amongst our team but we managed to solve the problem as a team. Even Though if this meant I had to cover for HTML and CSS section of the game it was the best decision for the team. I did all the JavaScript for the visuals of our game.
-        Here is the our final work plan.
-        <br><br>
-        <img src="./images/plan_final.png"alt="">
-        <br><br>
-        I also designed the wiggle function of the game which was very popular during the trade show.
-        <br><br>
-        <img src="./images/wiggle_fn.png"alt="">
-        <br><br>
-
-      </h3>
-
-      </h3>
-      <h2>Course Reflection</h2>
-      <h3>
-        Looking at my journey throughout DECO1800, I can confidently say I have learned many usefull skills which will come handyin the future.
-        <br><br>
-        Firstly, one of the biggest things that I learnt in this course is how to work as a part of a team. It was a very real world experience. I learnt to rely and trust on the rest of my teammates, resolve team conflicts and conceptualize and brainstorm idea within the team.
-        <br><br>
-        Secondly, I have a much deeper understanding of the design process, and how a developer will interact with clients and team members to synthesize and final product.
         <br>
-        Looking back I one thing I would say is that I will need to manage my time more efficiently and take in count potential mess ups and failures.
-        <br><br>
-        I believe that DECO1800 was overall an effective course,  in the way that it allowed me to experience design process firsthand and learn about real world process.
-
-      </h3>
-
+        <div class="col-md-6">
+          <img src="./img/Itsy_kmart.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <img src="./img/itsy_solution.jpg" alt="">
+        </div>
+      </div>
 
     </div>
-
-    <div id="experience">
-      <h1>past work</h1>
-      <h3>this is my first year so dont have much to show, but hang on tight for the coming years!! ;) </h3>
-
-    </div>
-
-    <div id="aboutMe">
-      <h1>About Me</h1>
-      <br>
-      <h3>
-        Hi, I am <strong>Fardeen Rashid</strong> and I am a first year <strong>BInfTech</strong> & <strong>BSc</strong> student at the University of Queenland. I am planning to major in software/UX Design and computer science.
-      </h3>
-      <br>
-      <h2> The fun stuff</h2>
-      <h3>
-        I love <strong>photography</strong> and to <strong>travel</strong> to intresting places. Saying that design is a big passion of mine. I am a big fan of the <strong>modern</strong> and <strong>minimalistic</strong> design. Follow me on social media from the social media page.
-        If you have any questions feel free to email me.
-      </h3>
-
-      <p>
-        <a href="https://www.uq.edu.au/" target="_blank">
-          <i  class="fa fa-university" aria-hidden="true">
-            The University Of Queensland</i>
-        </a>
-        <br>
-        <i class="fa fa-id-card-o" aria-hidden="true">
-          <strong>ID </strong> S4484899</i>
-          <br>
-        <i class="fa fa-book" aria-hidden="true">
-          <strong>Program </strong> Bachelor of Information Technology/Science
-        </i>
-        <br>
-        <i class="fa fa-envelope" aria-hidden="true">
-          <strong>Email </strong> f.rashid@uqconnect.edu.au
-        </i>
-      </p>
-
-
-    </div>
-
-    <div id="social">
-      <h2>Social Media</h2>
-      <p>
-        <h3>
-          Follow me on my instagram
-          <a href="https://www.instagram.com/deeniedageenie/" target="_blank"> &nbsp; &nbsp; <strong><i class="fa fa-instagram" aria-hidden="true"></i> @deeniedageenie</strong></a>
-          <br>
-          <br> or my new photography page <a href="https://www.instagram.com/deegeephotos/" target="_blank"> &nbsp;  <strong><i class="fa fa-instagram" aria-hidden="true"></i> @deegeephotos</strong></a>
-        </h3>
-        <h2>Blog</h2>
-        <h3>
-          <br>
-          Follow along with my progress
-          <a href="https://decowithdeen.blogspot.com.au" target="_blank">&nbsp; <strong><i class="fa fa-rss" aria-hidden="true"></i>
-          @decowithdeen</strong></a>
-          <br>
-          <br>
-          <iframe src ="https://decowithdeen.blogspot.com.au" width="70%" height="300"> </iframe>
-
-        </h3>
-
-      </p>
-
-
-    </div>
-
   </div>
 
+  <!-- Product Section -->
+  <div id="product">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>The Product - I T S Y</h2>
+        <hr>
+        <img src="./img/ITSYgif.gif" alt="">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="physical row">
+            <div class="col-md-6">
+              <img src="./img/Physical_form1.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+              <img src="./img/Physical_form2.jpg" alt="">
+            </div>
+          </div>
+          <div class="physical row">
+            <div class="col-md-6">
+              <img src="./img/Physical_form3.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+              <img src="./img/Physical_form4.jpg" alt="">
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="product-text">
+            <h2>Physical Form</h2>
+            <hr>
+            <p>The physical form for ITSY was a Plush Teddy bear from Kmart, which we modified to fit our components.
+              Sean and I were able to work closely and combine out prototypes together.
+            </p>
+            <p>I embedded two switches, one in
+              each hand to simulate holding and shaking hands and Sean used a colour sensor to detect colours what was
+              presented to itsy.
+            </p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/nfMyKsjrUtI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <h2>Components</h2>
+        <hr>
+
+        <div class="component-img col-sm-3">
+          <p><strong>Arduino Uno </strong></p>
+          <img src="./img/arduino-uno.jpeg" alt="">
+          <p> Arduino Uno was used for powering arduino components and ensuring the functionality of each components are
+            working together.</p>
+        </div>
+        <div class="component-img col-sm-3">
+          <p><strong>Arduino Sound Module</strong></p>
+          <img src="./img/arduino-sound-module.jpg" alt="">
+          <p>Sound module was installed on Itsy to provide users with audio output. This was used to provide users with
+            instructions.</p>
+        </div>
+        <div class="component-img col-sm-3">
+          <p><strong>Colour Sensor</strong></p>
+          <img src="./img/tcs3200.jpg" alt="">
+          <p>TCS3200 colour sensor was used for detecting the colours that the user presented</p>
+        </div>
+        <div class="component-img col-sm-3">
+          <p><strong>Momentary Switches </strong></p>
+          <img src="./img/buttons.jpeg" alt="">
+          <p>The buttons are embedded into Itsy’s hand to simulate left or right hand tactile feedback which you cannot
+            simulate from a screen. This helps the user to improve on both left and right hand dexterity.
+          </p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <h2>Back-End Software</h2>
+        <hr>
+        <p>n the back end I used an arduino running in conjunction with Node-red which is a programming tool based on
+          the Node.js platform. I used this approach because I am more familiar with JavaScript then Arduino’s own
+          language
+        </p>
+
+        <div class="software-img col-md-4">
+          <img src="./img/nodeJS_icon.png" alt="">
+        </div>
+        <div class="software-img col-md-4">
+          <img src="./img/Node-red-icon.png" alt="">
+        </div>
+        <div class="software-img col-md-4">
+          <img src="./img/arduino-icon-28.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Design Section -->
+  <div id="design" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Design</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      </div>
+
+      <div id="journal">
+        <div class="fa fa-book"></div>
+        <h3><a href="https://deco3850.uqcloud.net/students/frashid">DECO3850 Journal</a></h3>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="devlirables row">
+        <div class="col-md-6">
+          <h2>Proposal Document</h2>
+          <br>
+          <iframe src="./docs/DECO3850ProposalHalfIceNoSugar.pdf" width="100%" height="200px">
+            This browser does not support PDFs. Please download the PDF to view it:
+            </iframe>
+            <a href="./docs/DECO3850ProposalHalfIceNoSugar.pdf">Download PDF</a>
+        </div>
+        <div class="col-md-6">
+          <h2>Prototype Demo</h2>
+          <br>
+          <iframe src="./docs/PrototypeDocumentFardeen.pdf" width="100%" height="200px">
+            This browser does not support PDFs. Please download the PDF to view it:
+            </iframe>
+            <a href="./docs/PrototypeDocumentFardeen.pdf">Download PDF</a>
+        </div>
+
+        
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Outcome Section -->
+  <div id="outcome" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Outcomes</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      </div>
+      <!-- <div class="col-md-8 col-md-offset-2">
+        
+        <div class="social">
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+
+        <p>Copyright &copy; Fardeen. Designed With <a href="https://getbootstrap.com" rel="nofollow">BootStrap</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
